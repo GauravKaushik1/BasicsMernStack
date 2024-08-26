@@ -8,7 +8,7 @@ require('dotenv').config({
 const app = express();
 const {connect_db} = require('./config/db.js');
 const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || 'localhost';
+const HOST = '0.0.0.0'; // Bind to all IP addresses// const HOST = process.env.HOST || 'localhost';
 app.use(express.json());
 const corsOptions = {
     origin:`${process.env.FrontendHost}:${process.env.FrontendPORT}`,
