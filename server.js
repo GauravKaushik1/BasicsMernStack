@@ -1,5 +1,5 @@
 const express = require('express');
-const ApiError = require('./utilities/ApiError.js');
+const path = require('path');//for dist folder loading static files
 const cors = require('cors');
 const errorMiddleware = require("./middleware/error.middleware.js");
 require('dotenv').config({
