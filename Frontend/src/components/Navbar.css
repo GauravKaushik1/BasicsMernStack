@@ -1,0 +1,39 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  background-color: var(--navbar-bg-color);
+}
+
+.navbar .logo {
+  font-size: 2.4rem;
+  color: var(--navbar-logo-color);
+}
+
+.navbar .logo:hover {
+  color: var(--navbar-logo-hover-color);
+}
+
+.navbar a {
+  color: var(--navbar-link-color);
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: var(--navbar-link-hover-color);
+  border-bottom: 2px solid var(--navbar-link-hover-color);
+}
+
+.navbar .social-icons a {
+  color: var(--navbar-social-icon-color);
+  font-size: 2rem;
+  margin: 0 0.8rem;
+}
+
+.navbar .social-icons a:hover {
+  color: var(--navbar-social-icon-hover-color);
+}

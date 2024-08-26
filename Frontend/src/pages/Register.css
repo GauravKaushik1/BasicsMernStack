@@ -1,0 +1,108 @@
+/* Registration Form Styles */
+.registration-section {
+  padding: 4.8rem 2.4rem;
+  background-color: var(--bg-color);
+}
+
+.registration-image {
+  text-align: center;
+}
+
+.registration-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+}
+
+.registration-form {
+  max-width: 60rem;
+  padding: 2.4rem;
+  background-color: var(--form-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+}
+
+.registration-form h1 {
+  font-size: 3.2rem;
+  color: var(--form-heading-color);
+}
+
+.registration-form label {
+  display: block;
+  font-weight: bold;
+  color: var(--form-label-color);
+}
+
+.registration-form input,
+.registration-form textarea {
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--form-border-color);
+  background-color: var(--form-bg-color);
+  color: var(--dark-color);
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.registration-form textarea {
+  resize: vertical;
+  min-height: 12rem;
+}
+
+.registration-form input[type="file"] {
+  padding: 1.2rem;
+}
+
+.registration-form button {
+  display: block;
+  width: 100%;
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--btn-text-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1.6rem;
+}
+
+.registration-form button:hover {
+  background-color: var(--hover-dark-color);
+  transform: scale(1.05);
+}
+
+@media (max-width: 798px) {
+  .registration-form {
+    padding: 1.6rem;
+  }
+
+  .registration-form input,
+  .registration-form textarea {
+    font-size: 1.6rem;
+    padding: 1.4rem;
+  }
+
+  .registration-form button {
+    font-size: 1.6rem;
+    padding: 1.4rem;
+  }
+}
+
+@media (max-width: 798px) {
+  .registration-form {
+    padding: 1.6rem;
+  }
+
+  .registration-form input,
+  .registration-form textarea {
+    font-size: 1.6rem;
+    padding: 1.4rem;
+  }
+
+  .registration-form button {
+    font-size: 1.6rem;
+    padding: 1.4rem;
+  }
+}

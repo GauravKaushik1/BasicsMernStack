@@ -1,0 +1,32 @@
+/* Admin Contacts Styles */
+.admin-contacts {
+    padding: 4.8rem 2.4rem;
+    background-color: var(--bg-color);
+  }
+  
+  .admin-contacts h1 {
+    font-size: 3.2rem;
+    color: var(--heading-color);
+    margin-bottom: 2.4rem;
+  }
+  
+  .admin-contacts .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-contacts .contact-list li {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 1.6rem;
+  }
+  
+  .admin-contacts .contact-list li a {
+    color: var(--btn-color);
+    text-decoration: none;
+  }
+  
+  .admin-contacts .contact-list li a:hover {
+    text-decoration: underline;
+  }
+  

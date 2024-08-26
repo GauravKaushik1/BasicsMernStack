@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--dark-color);
+}
+
+header, footer {
+  background-color: var(--bg-color);
+  color: var(--dark-color);
+}
+
+header {
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--form-border-color);
+}
+
+header .logo {
+  font-size: 2.4rem;
+  color: var(--btn-color);
+}
+
+header .logo:hover {
+  color: var(--hover-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  background-color: var(--bg-color);
+}
+
+.navbar a {
+  color: var(--dark-color);
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: var(--btn-color);
+  border-bottom: 2px solid var(--btn-color);
+}
+
+.navbar .social-icons a {
+  color: var(--footer-social-icon-color);
+  font-size: 2rem;
+  margin: 0 0.8rem;
+}
+
+.navbar .social-icons a:hover {
+  color: var(--footer-social-icon-hover-color);
+}
+
+/* Main Content Styles */
+main {
+  padding: 4.8rem 2.4rem;
+}
+
+.card {
+  background-color: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2.4rem;
+}
+
+.card:hover {
+  background-color: var(--card-hover-background);
+}
+
+.card h2 {
+  font-size: 2.4rem;
+  color: var(--dark-color);
+}
+
+.card p {
+  font-size: 1.6rem;
+  color: var(--text-color);
+}
+
+.card a {
+  color: var(--btn-color);
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: var(--hover-color);
+}
+
+/* Form Styles */
+form {
+  background-color: var(--form-bg-color);
+  padding: 2.4rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--form-border-color);
+}
+
+form label {
+  display: block;
+  color: var(--form-label-color);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--form-border-color);
+  background-color: var(--form-bg-color);
+  color: var(--dark-color);
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  background-color: var(--btn-color);
+  color: var(--dark-color);
+  padding: 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: var(--hover-dark-color);
+  transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 798px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.6rem;
+  }
+
+  .card h2 {
+    font-size: 2rem;
+  }
+
+  .card p {
+    font-size: 1.4rem;
+  }
+}
