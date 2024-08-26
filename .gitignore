@@ -1,0 +1,147 @@
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+config.env
+FolderList.txt
+./config/read.me
+./.ssh/
+FolderList.txt
+shop.controller.js
+upload.Controller.js
+.config/read.me
+healthcheck.controller.js
+SharePopup.css
+SharePopupContext.jsx
+/routes/shop.routes.js
+shop.routes.js
+upload.router.js
+# Node modules (both root and Frontend)
+node_modules/
+
+# Environment variables
+*.env
+Frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build output
+dist/
+build/
+out/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Dependencies for Frontend (which might be built)
+Frontend/.next/
+Frontend/.cache/
+Frontend/public/assets/
+
+# NPM and Yarn lock files (you might want to commit them for consistency, but generally ignored in some cases)
+package-lock.json
+yarn.lock
+
+# Ignore all files in the `upload/` directory except the images folder
+upload/*
+!upload/images/
+
+# Ignore empty directories (Git doesn't track empty directories by default)
+Frontend/src/images/
+Frontend/src/components/layouts/
+upload/images/
+
+read.me
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Build and cache directories
+lib-cov
+.grunt
+bower_components
+build/Release
+jspm_packages/
+web_modules/
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# Dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Tools build output
+.cache
+.parcel-cache
+.next
+.nuxt
+dist
+.vuepress/dist
+.temp
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Serverless Webpack
+.webpack/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

@@ -1,0 +1,42 @@
+{
+  "name": "garuav_blogg_here",
+  "version": "0.0.0",
+  "description": "To make an app by self of the knowledge obtained from various youtube.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "gaurav",
+    "kaushik",
+    "hi",
+    "this",
+    "is",
+    "for",
+    "the",
+    "topic",
+    "etc"
+  ],
+  "author": "Gaurav Kaushik",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.4",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
