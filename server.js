@@ -22,7 +22,7 @@ const auth = require("./routes/users.routes.js");
 const contactRoute = require("./routes/contact.routes.js");
 const serviceRoute = require("./routes/service.routes.js");
 const adminRoute = require("./routes/admin.routes.js");
-app.use('/', require('./routes/index.routes.js'));
+// app.use('/', require('./routes/index.routes.js'));//if using ejs
 app.use('/api/users', auth);
 app.use('/api/form', contactRoute);
 app.use("/api/data", serviceRoute);
