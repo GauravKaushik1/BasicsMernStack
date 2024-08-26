@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Analytics } from "../components/Analytics";
 import { useToken } from "../store/tokenDistributor";
-
+import './About.css';
 export const About = () => {
   const { user } = useToken();
 

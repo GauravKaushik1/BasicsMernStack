@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useToken } from '../store/tokenDistributor';
 import { toast } from "react-toastify";
-import "./contact.css";
+import "./Contact.css";
 export const Contact = () => {
   const { user, API_URL, isLoading, userAuthentication } = useToken();
   

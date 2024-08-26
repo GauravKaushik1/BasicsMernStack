@@ -356,7 +356,6 @@ button:hover {
 
 /* Contact Section Styles */
 .contact-section {
-  background-image: url('path/to/contact-bg-image.jpg');
   background-size: cover;
   background-position: center;
   padding: 4.8rem 2.4rem;
