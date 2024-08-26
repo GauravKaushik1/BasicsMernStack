@@ -27,7 +27,16 @@ app.use('/api/users', auth);
 app.use('/api/form', contactRoute);
 app.use("/api/data", serviceRoute);
 app.use("/api/admin", adminRoute);
-app.use("/api/shop", require('./routes/shop.routes.js'));
+
+// Serve static files from the frontend build directory
+app.use(express.static(path.join(__dirname, 'Frontend', 'dist')));
+
+// Define your API routes or middleware here
+
+// For any other routes not handled by the backend, serve the frontend
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'Frontend', 'dist', 'index.html'));
+});
 
 app.use(errorMiddleware);//In Express, the error-handling middleware should be defined after all your route handlers.
 app.use((err, req, res, next) => {
