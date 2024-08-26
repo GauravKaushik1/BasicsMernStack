@@ -66,7 +66,6 @@ upload/*
 
 # Ignore empty directories (Git doesn't track empty directories by default)
 Frontend/src/images/
-Frontend/src/components/layouts/
 upload/images/
 
 read.me
