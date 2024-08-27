@@ -1,0 +1,83 @@
+@media (max-width: 998px) {
+    /* services and registration */
+    .grid-two-cols {
+      grid-template-columns: 1fr;
+    }
+  
+    .section-services .grid-three-cols {
+      grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    }
+  
+    .section-registration .container .reg-img img {
+      width: 60%;
+    }
+
+    /* contact form */
+    .contact-content img {
+        max-width: 100%;
+    }
+  
+    .section-form input,
+    .section-form textarea {
+        width: 100%;
+    }
+  }
+  @media (max-width: 798px) {
+    html {
+      font-size: 56.25%;
+    }
+    /* registration */
+    .registration-form {
+        padding: 1.6rem;
+      }
+    
+      .registration-form input,
+      .registration-form textarea {
+        font-size: 1.6rem;
+        padding: 1.4rem;
+      }
+    
+      .registration-form button {
+        font-size: 1.6rem;
+        padding: 1.4rem;
+      }
+    .section-registration .container .reg-img img {
+      width: 50%;
+    }
+  
+    .section-registration .registration-form input {
+      width: 100%;
+    }
+
+    .logo-brand a {
+      font-size: 1.6rem;
+    }
+    /* services page */
+    .service-card {
+      padding: 1.6rem;
+    }
+  
+    .service-card h2 {
+      font-size: 2rem;
+    }
+  
+    .service-card p {
+      font-size: 1.4rem;
+    }
+  
+    .service-card a {
+      font-size: 1.4rem;
+      padding: 0.8rem 1.6rem;
+    }
+  }
+  /* footer */
+  @media (max-width: 768px) {
+    .footer-nav {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .footer-social {
+      gap: 1rem;
+    }
+  }
