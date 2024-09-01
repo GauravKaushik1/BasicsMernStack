@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0'; // Bind to all IP addresses// const HOST = process.env.HOST || 'localhost';
 app.use(express.json());
 const corsOptions = {
-    origin:`${process.env.FrontendHost}:${process.env.FrontendPORT}`,
+    origin:`${process.env.FrontendHost}`,
 
   method:"GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials:true,
